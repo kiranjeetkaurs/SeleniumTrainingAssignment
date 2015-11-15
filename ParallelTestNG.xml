@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="demoSuite" parallel='tests'>
+	<tests>
+			<test name = "FireFox">
+			<parameter name="browser" value="FF"/> 
+			
+					<classes>
+					
+					<class name = "SeleniumExamples.ParallelTest"></class>
+				
+					</classes>
+			</test>
+		
+			<test name = "Chrome">
+			<parameter name="browser" value="Chrome"/> 
+					<classes>
+					
+					<class name = "SeleniumExamples.ParallelTest"></class>
+					
+					</classes>
+			</test>
+			<test name = "IE">
+			<parameter name="browser" value="InteretExplorer"/> 
+					<classes>
+					
+					<class name = "SeleniumExamples.ParallelTest"></class>
+					
+					</classes>
+			</test>
+			
+	</tests>
+</suite>

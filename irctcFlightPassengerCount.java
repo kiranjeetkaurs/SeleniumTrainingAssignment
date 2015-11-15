@@ -28,7 +28,7 @@ public class irctcFlightPassengerCount {
 
 	@AfterTest
 	public void testUrlClose() {
-		driver.quit();;
+		driver.quit();
 	}
 
 	@Test
